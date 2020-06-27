@@ -9,4 +9,8 @@
 		background-color: $mainBlue;
 		color: #FFF;
 	}
+
+	&--white {
+		background-color: #FFF;
+	}
 }
