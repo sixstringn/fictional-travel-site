@@ -6,10 +6,10 @@
 		display: block;
 	}
 
-	&__text-content { /* __ = element of .large-hero block */
+	&__text-content { /* __ = BEM element of .large-hero block */
+		padding-top: 60px;
 		position: absolute;
 		top: 50%;
-		/*top: 20%;*/
 		left: 0;
 		width: 100%;
 		transform: translateY(-50%);
