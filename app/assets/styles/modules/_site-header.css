@@ -11,7 +11,12 @@
 	}
 
 	@mixin atMedium {
+		position: fixed;
 		background-color: rgba($mainBlue, .3); /* variable used with postcss-hexrgba plugin */
+
+		&--dark {
+			background-color: rgba(23, 51,72, .85);
+		}
 	}
 
 	&__btn-container {
@@ -25,6 +30,7 @@
 		position: absolute;
 		top: 0;
 		left: 50%;
+		transition: transform .3s ease-out;
 		transform: translateX(-50%);
 		background-color: $mainBlue;
 		padding: 13px 29px;
@@ -33,6 +39,11 @@
 			left: auto;
 			transform: translateX(0);
 			padding: 26px 37px;
+
+			.site-header--dark & {   /* & appends __logo to rule */ 
+				transform: scale(.53);
+				top: -26px;
+			}
 		}
 	}
 
