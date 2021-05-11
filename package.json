@@ -9,7 +9,7 @@
   "dependencies": {
     "elliptic": "^6.5.3",
     "lazysizes": "^5.2.2",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "node-forge": "^0.10.0",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
